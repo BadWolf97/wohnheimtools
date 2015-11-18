@@ -1,0 +1,17 @@
+Wohnheimtools
+
+Hier gibt es ein paar Tools zur Netzwerkverwaltung in den Wohnheimen der Uni Mainz.
+
+
+ICMP Enabeler
+
+Schaltet automatisch die Ports frei, um die ICMP-Requests zu beantworten. Nur erfolgreich, wenn keine zusätzliche Firewall verwendet wird.
+
+Internetüberwachung
+
+Bietet eine schnelle Übersicht, wenn es mal hakt.
+
+PingTest
+Usage: PingTest.exe [IP-Addresse]
+
+Führt alle 10 Sekunden einen Ping zur angegebenen IP-Addresse aus und speichert das Ergebnis in einer Text-Datei. Muss durch Ctrl-C abgebrochen werden.
