@@ -1,0 +1,5 @@
+*.config
+*.pdb
+*.vshost.exe*
+/PingTest/PingTest/bin/Debug/PingTest.xml
+/ICMP Enabeler/ICMP Enabeler/bin/Debug/ICMP Enabeler.xml
