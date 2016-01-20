@@ -6,20 +6,30 @@ Internetüberwachung
 </name>
 </assembly>
 <members>
-<member name="T:de.fph.unimainz.wohnheim.internet.My.Resources.Resources">
+<member name="T:FPH.UniMainz.Wohnheime.Ueberwachung.My.Resources.Resources">
 <summary>
   Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
 </summary>
 </member>
-<member name="P:de.fph.unimainz.wohnheim.internet.My.Resources.Resources.ResourceManager">
+<member name="P:FPH.UniMainz.Wohnheime.Ueberwachung.My.Resources.Resources.ResourceManager">
 <summary>
   Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
 </summary>
 </member>
-<member name="P:de.fph.unimainz.wohnheim.internet.My.Resources.Resources.Culture">
+<member name="P:FPH.UniMainz.Wohnheime.Ueberwachung.My.Resources.Resources.Culture">
 <summary>
   Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
   Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:FPH.UniMainz.Wohnheime.Ueberwachung.My.Resources.Resources.LightButton">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+</summary>
+</member>
+<member name="P:FPH.UniMainz.Wohnheime.Ueberwachung.My.Resources.Resources.Microsoft_VisualBasic_PowerPacks">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
 </summary>
 </member>
 </members>

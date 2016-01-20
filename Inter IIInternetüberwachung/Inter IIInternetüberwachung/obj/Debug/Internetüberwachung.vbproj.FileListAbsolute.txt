@@ -29,3 +29,11 @@ E:\Daten\Dokumente\GitHubVisualStudio\wohnheimtools\Inter IIInternetüberwachung
 E:\Daten\Dokumente\GitHubVisualStudio\wohnheimtools\Inter IIInternetüberwachung\Inter IIInternetüberwachung\obj\Debug\Internetüberwachung.exe
 E:\Daten\Dokumente\GitHubVisualStudio\wohnheimtools\Inter IIInternetüberwachung\Inter IIInternetüberwachung\obj\Debug\Internetüberwachung.xml
 E:\Daten\Dokumente\GitHubVisualStudio\wohnheimtools\Inter IIInternetüberwachung\Inter IIInternetüberwachung\obj\Debug\Internetüberwachung.pdb
+E:\Daten\Dokumente\GitHubVisualStudio\wohnheimtools\Inter IIInternetüberwachung\Inter IIInternetüberwachung\bin\Debug\Internetüberwachung.exe
+E:\Daten\Dokumente\GitHubVisualStudio\wohnheimtools\Inter IIInternetüberwachung\Inter IIInternetüberwachung\bin\Debug\Internetüberwachung.pdb
+E:\Daten\Dokumente\GitHubVisualStudio\wohnheimtools\Inter IIInternetüberwachung\Inter IIInternetüberwachung\bin\Debug\Internetüberwachung.xml
+E:\Daten\Dokumente\GitHubVisualStudio\wohnheimtools\Inter IIInternetüberwachung\Inter IIInternetüberwachung\obj\Debug\Internetüberwachung.vbprojResolveAssemblyReference.cache
+E:\Daten\Dokumente\GitHubVisualStudio\wohnheimtools\Inter IIInternetüberwachung\Inter IIInternetüberwachung\obj\Debug\FPH.UniMainz.Wohnheime.Ueberwachung.Form1.resources
+E:\Daten\Dokumente\GitHubVisualStudio\wohnheimtools\Inter IIInternetüberwachung\Inter IIInternetüberwachung\obj\Debug\FPH.UniMainz.Wohnheime.Ueberwachung.Resources.resources
+E:\Daten\Dokumente\GitHubVisualStudio\wohnheimtools\Inter IIInternetüberwachung\Inter IIInternetüberwachung\obj\Debug\FPH.UniMainz.Wohnheime.Ueberwachung.StartUp.resources
+E:\Daten\Dokumente\GitHubVisualStudio\wohnheimtools\Inter IIInternetüberwachung\Inter IIInternetüberwachung\obj\Debug\Internetüberwachung.vbproj.GenerateResource.Cache

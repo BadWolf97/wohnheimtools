@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3246F6EC-7FE9-4682-AC79-21810D10CAE4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>de.fph.unimainz.wohnheim.internet.My.MyApplication</StartupObject>
-    <RootNamespace>de.fph.unimainz.wohnheim.internet</RootNamespace>
+    <StartupObject>FPH.UniMainz.Wohnheime.Ueberwachung.My.MyApplication</StartupObject>
+    <RootNamespace>FPH.UniMainz.Wohnheime.Ueberwachung</RootNamespace>
     <AssemblyName>Internetüberwachung</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
@@ -47,6 +47,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>FPH small.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LightButton">
@@ -96,6 +99,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="StartUp.Designer.vb">
+      <DependentUpon>StartUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StartUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -106,6 +115,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartUp.resx">
+      <DependentUpon>StartUp.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -120,6 +132,11 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Microsoft.VisualBasic.PowerPacks.dll" />
+    <None Include="bin\Debug\LightButton.dll" />
+    <Content Include="FPH small.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

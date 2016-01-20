@@ -76,9 +76,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.de.fph.unimainz.wohnheim.internet.My.MySettings
+        Friend ReadOnly Property Settings() As Global.FPH.UniMainz.Wohnheime.Ueberwachung.My.MySettings
             Get
-                Return Global.de.fph.unimainz.wohnheim.internet.My.MySettings.Default
+                Return Global.FPH.UniMainz.Wohnheime.Ueberwachung.My.MySettings.Default
             End Get
         End Property
     End Module

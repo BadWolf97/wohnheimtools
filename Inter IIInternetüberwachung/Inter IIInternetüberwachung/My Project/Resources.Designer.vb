@@ -39,7 +39,7 @@ Namespace My.Resources
         Friend ReadOnly Property ResourceManager() As Global.System.Resources.ResourceManager
             Get
                 If Object.ReferenceEquals(resourceMan, Nothing) Then
-                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("de.fph.unimainz.wohnheim.internet.Resources", GetType(Resources).Assembly)
+                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("FPH.UniMainz.Wohnheime.Ueberwachung.Resources", GetType(Resources).Assembly)
                     resourceMan = temp
                 End If
                 Return resourceMan
@@ -58,6 +58,26 @@ Namespace My.Resources
             Set
                 resourceCulture = value
             End Set
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property LightButton() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LightButton", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property Microsoft_VisualBasic_PowerPacks() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Microsoft_VisualBasic_PowerPacks", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
         End Property
     End Module
 End Namespace
